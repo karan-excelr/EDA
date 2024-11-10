@@ -1,0 +1,12 @@
+Pandas is an open-source Python library that provides high-performance, easy-to-use data structures, and data analysis tools. It is widely used in data science, machine learning, and data analysis tasks for its powerful data manipulation and processing capabilities. With Pandas, users can work with data in a tabular format, similar to a spreadsheet, but with more functionality and efficiency.
+Here's a step-by-step guide on performing EDA using pandas in Python. Each step includes relevant pandas commands to gain insights into the dataset.
+Load Data
+Use pd.read_csv() or similar commands (pd.read_excel(), pd.read_sql(), etc.) to load data from a file or database.
+ Initial Data Overview
+View the first few rows: See a sample of the dataset to understand its structure.
+View column names and data types: Identify data types and check for potential issues.
+using df.head()  method.
+View column names and data types: Identify data types and check for potential issues.
+using df.columns/ df.dtype method.
+Basic information summary: This provides insights on non-null counts and data types.
+using df.info() method.
